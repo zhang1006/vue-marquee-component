@@ -9,8 +9,6 @@
 
 <template lang="pug">
 .marquee-container(
-  @mouseenter="enter"
-  @mouseleave="leave",
   :direction="direction",
   :style="formatStyle")
   slot
